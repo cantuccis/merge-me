@@ -12,11 +12,8 @@ namespace MergeMe
 
         public string LastName { get; set; }
 
-<<<<<<< HEAD
-        public string FullName { get => $"{Name} {LastName}"; } 
-=======
-        public string FullName { get => Name.ToUpper() + " " + LastName.ToUpper(); } 
->>>>>>> origin/uppercase
+
+        public string FullName { get => $"{Name.ToUpper()} {LastName.ToUpper}"; } 
 
     }
 }
